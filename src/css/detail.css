@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+  }
+  
+  ul, li, ol {
+    list-style: none;
+  }
+  
+  input, button, select {
+    outline: none;
+  }
+  
+  a, a:hover, a:active, a:link, a:target {
+    text-decoration: none;
+  }
+  
+  img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  
+  .header, .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+    font-size: 60px;
+    color: #fff;
+  }
+  
+  .footer {
+    height: 300px;
+  }
+.head{
+    width: 1200px;
+    height: 64px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.head>img{
+    width: 152px;
+    height: 28px;
+}
+.head>p{
+    margin: 10px 0 0;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.ckbox{
+    margin-left: 20px;
+
+}
+.ckck{
+    width: 140px;
+    height: 58px;
+    background-color: #D9161C;
+    color: white;
+    border: 0;
+}
+.totleprice{
+    font-size: 22px;
+    color: red;
+}
+.ckbtn{
+    margin-left: 20px;
+}
+table{
+    border-collapse: collapse;
+    width: 1200px;
+    margin: 0 auto;
+}
+.title{
+    font-size: 14px;
+}
+.face{
+    width: 80px;
+    height: 80px;
+}
+.name{
+    color:#333;
+    font-size: 12px;
+    display: inline-block;
+    width: 200px;
+    margin-left: 10px;
+}
+td{
+    padding: 10px 0;
+    min-width: 60px;
+}
+.price{
+    font-weight: bold;
+    color: black;
+}
+.totle{
+    font-weight: bold;
+    color: red;
+}
+tr{
+    border: 1px solid #bfbfbf;
+}
+.btn button{
+    width: 30px;
+    height: 30px;
+    border-style: none;
+    background-color: #d4d4d4;
+    outline: none;
+    cursor: pointer;
+}
+.btn input{
+    width: 30px;
+    height: 30px;
+    border-style: none;
+    text-align: center;
+}
+.find{
+    cursor: pointer;
+    width: 64px;
+    height: 256px;
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999999999999;
+    background-color: white;
+    
+}
+.find>ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.find>ul>li{
+    width: 100%;
+    color: #646464;
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+.find>ul>li:nth-child(4){
+    border: 0;
+}
+.find>ul>li>p{
+    margin-top: 5px;
+}
+
+
+
+
+
+.content {
+    margin-top: 30px;
+  }
+  
+  .content .selectAll {
+    font-size: 20px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: -10px;
+  }
+  
+  .content .selectAll > input {
+    width: 20px;
+    height: 20px;
+  }
+ 
+  .content .selectAll > .text0 {
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-weight: 700;
+    color:#ccc;
+  }
+  .content .selectAll > .text1 {
+    position: absolute;
+    left: 51%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-weight: 700;
+    color:#ccc;
+  }
+  .content .selectAll > .text2 {
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-weight: 700;
+    color:#ccc;
+  }
+  .content .selectAll > .text3 {
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-weight: 700;
+    color:#ccc;
+  }
+  .content .selectAll > .text4 {
+    position: absolute;
+    left: 92%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-weight: 700;
+    color:#ccc;
+  }
+  
+  .content .goodsList > li {
+    height: 100px;
+    padding: 10px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .content .goodsList > li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .content .goodsList > li > .select {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content .goodsList > li > .goodsImg {
+    width: 100px;
+    margin-right: 20px;
+  }
+  
+  .content .goodsList > li > .goodsDesc {
+    width: 300px;
+    padding: 10px 0;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .content .goodsList > li > .goodsDesc > p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }
+  
+  .content .goodsList > li > .price,
+  .content .goodsList > li > .xiaoji {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+  }
+  
+  .content .goodsList > li > .count {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content .goodsList > li > .count > button {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .content .goodsList > li > .count > input {
+    width: 75px;
+    height: 33px;
+    text-align: center;
+    border: none;
+  }
+  .buyNum{
+      width: 200px;
+  }
+  .content .goodsList > li > .operate{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .np{
+      border: 0;
+      outline: none;
+    width:180px;
+    background-color: #D9161C;
+    color: #fff;
+    font-size: 16px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+  }
+  
+  .buyInfo {
+      background-color: white;
+    display: flex;
+    align-items: center;
+  }
+  .panel-footer{
+      padding: 0;
+  }
+  
+  .buyInfo > .buyNum,
+  
+  .buyInfo > .operate {
+      width: 300px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+  .buyInfo > .buyMoney{
+    width: 500px;
+    text-align: right;
+    margin-top: 20px;
+  }
+  .buyInfo > .operate {
+      margin-right: 20px;
+      width: 200px;
+  }
+  
+  .buyInfo > .buyNum > span,
+  .buyInfo > .buyMoney > span {
+    font-size: 30px;
+  }
+  .buyMoney{
+      margin-left: 400px;
+  }
+  .kk{
+      padding: 40px;
+      width: 100%;
+      height: 100%;
+      background-color: #F6F6F6;
+  }
+  .mm2,.mm3{
+    width: 100%;
+    height: 400px;
+    background-color: #eee;
+    
+  }
+  .mm3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100px;
+  }
+  
+  .mm3 h2{
+    font-size: 100px;
+    color: #ccc;
+  }
+
+  .mm3 h1{
+    font-size: 15px;
+    color: #ccc;
+    font-weight: 100;
+  }
